@@ -1,0 +1,10 @@
+target '3DGridViewController', :exclusive => true do
+  pod "3DGridViewController", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "3DGridViewController", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
