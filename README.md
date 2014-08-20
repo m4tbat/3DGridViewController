@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Matteo Battaglio, matteo.battaglio@gmail.com
+Matteo Battaglio, m4dbat@gmail.com
 
 ## License
 
