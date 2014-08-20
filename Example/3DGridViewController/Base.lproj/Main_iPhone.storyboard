@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Content View Controller - Left-->
+        <!--View Controller - Left-->
         <scene sceneID="Bz8-61-vEh">
             <objects>
-                <viewController storyboardIdentifier="LeftViewController" title="Left" automaticallyAdjustsScrollViewInsets="NO" id="WdL-Mw-vYn" customClass="MBTContentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LeftViewController" title="Left" automaticallyAdjustsScrollViewInsets="NO" id="WdL-Mw-vYn" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="LI6-1X-2cM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="-933" y="881"/>
         </scene>
-        <!--Content View Controller - Central-->
+        <!--View Controller - Central-->
         <scene sceneID="dm7-bh-MAU">
             <objects>
-                <viewController storyboardIdentifier="CentralViewController" title="Central" automaticallyAdjustsScrollViewInsets="NO" id="bZC-4B-dEQ" customClass="MBTContentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CentralViewController" title="Central" automaticallyAdjustsScrollViewInsets="NO" id="bZC-4B-dEQ" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3LL-R2-uSO" customClass="MBTContentView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="-407" y="881"/>
         </scene>
-        <!--Content View Controller - Right-->
+        <!--View Controller - Right-->
         <scene sceneID="9Rj-b9-IRA">
             <objects>
-                <viewController storyboardIdentifier="RightViewController" title="Right" automaticallyAdjustsScrollViewInsets="NO" id="jQq-FT-LnO" customClass="MBTContentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RightViewController" title="Right" automaticallyAdjustsScrollViewInsets="NO" id="jQq-FT-LnO" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dmI-5s-ih6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -143,10 +143,10 @@
             </objects>
             <point key="canvasLocation" x="-1422" y="881"/>
         </scene>
-        <!--Content View Controller - Top-->
+        <!--View Controller - Top-->
         <scene sceneID="bLU-hi-mLu">
             <objects>
-                <viewController storyboardIdentifier="TopViewController" title="Top" automaticallyAdjustsScrollViewInsets="NO" id="JhE-6d-y0U" customClass="MBTContentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TopViewController" title="Top" automaticallyAdjustsScrollViewInsets="NO" id="JhE-6d-y0U" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="xh0-hN-tqZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -173,10 +173,10 @@
             </objects>
             <point key="canvasLocation" x="-407" y="113"/>
         </scene>
-        <!--Content View Controller - Bottom-->
+        <!--View Controller - Bottom-->
         <scene sceneID="BBi-Dv-V4j">
             <objects>
-                <viewController storyboardIdentifier="BottomViewController" title="Bottom" automaticallyAdjustsScrollViewInsets="NO" id="OM1-ao-5dr" customClass="MBTContentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BottomViewController" title="Bottom" automaticallyAdjustsScrollViewInsets="NO" id="OM1-ao-5dr" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="MNb-ip-55b">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -203,10 +203,10 @@
             </objects>
             <point key="canvasLocation" x="-407" y="1607"/>
         </scene>
-        <!--Content View Controller - Near-->
+        <!--View Controller - Near-->
         <scene sceneID="tdq-XL-LQ1">
             <objects>
-                <viewController storyboardIdentifier="NearViewController" title="Near" automaticallyAdjustsScrollViewInsets="NO" id="30d-zz-WVT" customClass="MBTContentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NearViewController" title="Near" automaticallyAdjustsScrollViewInsets="NO" id="30d-zz-WVT" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="eBs-W9-OPO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -233,10 +233,10 @@
             </objects>
             <point key="canvasLocation" x="121" y="113"/>
         </scene>
-        <!--Content View Controller - Far-->
+        <!--View Controller - Far-->
         <scene sceneID="g6w-Bg-mgY">
             <objects>
-                <viewController storyboardIdentifier="FarViewController" title="Far" automaticallyAdjustsScrollViewInsets="NO" id="fTT-CG-rKG" customClass="MBTContentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FarViewController" title="Far" automaticallyAdjustsScrollViewInsets="NO" id="fTT-CG-rKG" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="hhu-GE-ZZE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

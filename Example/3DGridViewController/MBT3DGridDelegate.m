@@ -153,7 +153,6 @@
             else if (percentComplete < 0) {
                 percentComplete = 0;
             }
-            NSLog(@"Pinch percent complete: %.0f", percentComplete*100);
             [self.interactionController updateInteractiveTransition:percentComplete];
         } break;
             
