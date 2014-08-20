@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "3DGridViewController"
-  s.version          = "0.1.0"
+  s.version          = "0.1"
   s.summary          = "A custom, 3D grid-shaped, container ViewController."
   s.description      = <<-DESC
                        3DGridViewController is a custom container view controller that lets you navigate
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Matteo Battaglio" => "m4dbat@gmail.com" }
-  s.source           = { :git => "https://github.com/madbat/3DGridViewController.git", :tag => "" }
+  s.source           = { :git => "https://github.com/madbat/3DGridViewController.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/m4dbat'
 
   s.platform     = :ios, '7.0'
