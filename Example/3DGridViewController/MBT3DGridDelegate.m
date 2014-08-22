@@ -179,19 +179,19 @@
 
 - (CGFloat)percentFromTranslation:(CGPoint)translation {
     CGFloat percentComplete = 0.0;
-    UIView *containerView = self.gridController.view;
+    CGSize containerViewSize = self.gridController.view.frame.size;
     switch (self.transitionDirection) {
         case MBT3DGridTransitionDirectionLeft:
-            percentComplete = translation.x / containerView.frame.size.width;
+            percentComplete = translation.x / containerViewSize.width;
             break;
         case MBT3DGridTransitionDirectionRight:
-            percentComplete = -(translation.x / containerView.frame.size.width);
+            percentComplete = -(translation.x / containerViewSize.width);
             break;
         case MBT3DGridTransitionDirectionTop:
-            percentComplete = translation.y / containerView.frame.size.height;
+            percentComplete = translation.y / containerViewSize.height;
             break;
         case MBT3DGridTransitionDirectionBottom:
-            percentComplete = -(translation.y / containerView.frame.size.height);
+            percentComplete = -(translation.y / containerViewSize.height);
             break;
         case MBT3DGridTransitionDirectionNear:
             break;

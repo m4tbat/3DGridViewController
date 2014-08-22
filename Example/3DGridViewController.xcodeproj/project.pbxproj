@@ -22,12 +22,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		959FA3CA199820F600F35DB4 /* MBTXYAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 959FA3C3199820F600F35DB4 /* MBTXYAnimator.m */; };
-		959FA3CB199820F600F35DB4 /* MBTZAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 959FA3C5199820F600F35DB4 /* MBTZAnimator.m */; };
 		959FA3CC199820F600F35DB4 /* MBT3DGridDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 959FA3C7199820F600F35DB4 /* MBT3DGridDataSource.m */; };
 		959FA3CD199820F600F35DB4 /* MBT3DGridDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 959FA3C9199820F600F35DB4 /* MBT3DGridDelegate.m */; };
 		959FA3D01998281000F35DB4 /* MBTSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959FA3CF1998281000F35DB4 /* MBTSplashViewController.m */; };
-		959FA480199A1E9A00F35DB4 /* MBTBackgroundParallaxAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 959FA47F199A1E9A00F35DB4 /* MBTBackgroundParallaxAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,18 +58,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		8F805A2B02C3415091958F27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		959FA3C2199820F600F35DB4 /* MBTXYAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTXYAnimator.h; sourceTree = "<group>"; };
-		959FA3C3199820F600F35DB4 /* MBTXYAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTXYAnimator.m; sourceTree = "<group>"; };
-		959FA3C4199820F600F35DB4 /* MBTZAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTZAnimator.h; sourceTree = "<group>"; };
-		959FA3C5199820F600F35DB4 /* MBTZAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTZAnimator.m; sourceTree = "<group>"; };
 		959FA3C6199820F600F35DB4 /* MBT3DGridDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBT3DGridDataSource.h; sourceTree = "<group>"; };
 		959FA3C7199820F600F35DB4 /* MBT3DGridDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBT3DGridDataSource.m; sourceTree = "<group>"; };
 		959FA3C8199820F600F35DB4 /* MBT3DGridDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBT3DGridDelegate.h; sourceTree = "<group>"; };
 		959FA3C9199820F600F35DB4 /* MBT3DGridDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBT3DGridDelegate.m; sourceTree = "<group>"; };
 		959FA3CE1998281000F35DB4 /* MBTSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTSplashViewController.h; sourceTree = "<group>"; };
 		959FA3CF1998281000F35DB4 /* MBTSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTSplashViewController.m; sourceTree = "<group>"; };
-		959FA47E199A1E9A00F35DB4 /* MBTBackgroundParallaxAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTBackgroundParallaxAnimator.h; sourceTree = "<group>"; };
-		959FA47F199A1E9A00F35DB4 /* MBTBackgroundParallaxAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTBackgroundParallaxAnimator.m; sourceTree = "<group>"; };
 		9E4C580761F64EA9904D743A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2135E56A83D49F2A2ABA3AD /* libPods-3DGridViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3DGridViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE77DF9AB3614379A938A4FB /* Pods-3DGridViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DGridViewController.xcconfig"; path = "Pods/Pods-3DGridViewController.xcconfig"; sourceTree = "<group>"; };
@@ -152,7 +143,6 @@
 				959FA3C7199820F600F35DB4 /* MBT3DGridDataSource.m */,
 				959FA3C8199820F600F35DB4 /* MBT3DGridDelegate.h */,
 				959FA3C9199820F600F35DB4 /* MBT3DGridDelegate.m */,
-				959FA3C1199820F600F35DB4 /* Animators */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -198,19 +188,6 @@
 				8F805A2B02C3415091958F27 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		959FA3C1199820F600F35DB4 /* Animators */ = {
-			isa = PBXGroup;
-			children = (
-				959FA3C2199820F600F35DB4 /* MBTXYAnimator.h */,
-				959FA3C3199820F600F35DB4 /* MBTXYAnimator.m */,
-				959FA3C4199820F600F35DB4 /* MBTZAnimator.h */,
-				959FA3C5199820F600F35DB4 /* MBTZAnimator.m */,
-				959FA47E199A1E9A00F35DB4 /* MBTBackgroundParallaxAnimator.h */,
-				959FA47F199A1E9A00F35DB4 /* MBTBackgroundParallaxAnimator.m */,
-			);
-			path = Animators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,10 +357,7 @@
 			files = (
 				6003F59E195388D20070C39A /* MBTAppDelegate.m in Sources */,
 				959FA3D01998281000F35DB4 /* MBTSplashViewController.m in Sources */,
-				959FA3CB199820F600F35DB4 /* MBTZAnimator.m in Sources */,
-				959FA480199A1E9A00F35DB4 /* MBTBackgroundParallaxAnimator.m in Sources */,
 				959FA3CC199820F600F35DB4 /* MBT3DGridDataSource.m in Sources */,
-				959FA3CA199820F600F35DB4 /* MBTXYAnimator.m in Sources */,
 				959FA3CD199820F600F35DB4 /* MBT3DGridDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
