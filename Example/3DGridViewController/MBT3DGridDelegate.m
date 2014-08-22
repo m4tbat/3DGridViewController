@@ -7,9 +7,9 @@
 //
 
 #import "MBT3DGridDelegate.h"
-#import "MBTXYAnimator.h"
-#import "MBTZAnimator.h"
-#import "MBTBackgroundParallaxAnimator.h"
+#import <MBTXYAnimator.h>
+#import <MBTZAnimator.h>
+#import <MBTBackgroundParallaxAnimator.h>
 #import <AWPercentDrivenInteractiveTransition/AWPercentDrivenInteractiveTransition.h>
 
 @interface MBT3DGridDelegate ()

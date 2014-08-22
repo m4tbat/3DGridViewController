@@ -1,1 +1,1 @@
-../../../../Pod/Classes/MBTAdditionalAnimator.h
+../../../../Pod/Classes/Animators/MBTAdditionalAnimator.h

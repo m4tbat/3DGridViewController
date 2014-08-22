@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "3DGridViewController"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "A custom, 3D grid-shaped, container ViewController."
   s.description      = <<-DESC
                        3DGridViewController is a custom container view controller that lets you navigate
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/'
+  s.source_files = 'Pod/Classes/*.{h,m}', 'Pod/Classes/**/*.{h,m}'
   # s.resources = 'Pod/Assets/*.png'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -1,0 +1,1 @@
+../../../../Pod/Classes/Animators/MBTBackgroundParallaxAnimator.h

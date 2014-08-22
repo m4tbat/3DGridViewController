@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_3DGridViewController
 #define COCOAPODS_VERSION_MAJOR_3DGridViewController 0
 #define COCOAPODS_VERSION_MINOR_3DGridViewController 1
-#define COCOAPODS_VERSION_PATCH_3DGridViewController 1
+#define COCOAPODS_VERSION_PATCH_3DGridViewController 3
 
 // AWPercentDrivenInteractiveTransition
 #define COCOAPODS_POD_AVAILABLE_AWPercentDrivenInteractiveTransition
