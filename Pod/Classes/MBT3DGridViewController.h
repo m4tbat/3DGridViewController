@@ -9,12 +9,12 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, MBT3DGridTransitionDirection) {
-    MBT3DGridTransitionDirectionTop,
-    MBT3DGridTransitionDirectionBottom,
-    MBT3DGridTransitionDirectionLeft,
-    MBT3DGridTransitionDirectionRight,
-    MBT3DGridTransitionDirectionNear,
-    MBT3DGridTransitionDirectionFar
+    MBT3DGridTransitionDirectionLeft = 1 << 0,
+    MBT3DGridTransitionDirectionRight = -MBT3DGridTransitionDirectionLeft,
+    MBT3DGridTransitionDirectionTop = 1 << 1,
+    MBT3DGridTransitionDirectionBottom = -MBT3DGridTransitionDirectionTop,
+    MBT3DGridTransitionDirectionNear = 1 << 2,
+    MBT3DGridTransitionDirectionFar = -MBT3DGridTransitionDirectionNear
 };
 
 @protocol MBT3DGridViewControllerDataSource <NSObject>
