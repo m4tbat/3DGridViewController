@@ -1,20 +1,20 @@
 //
-//  MEViewController.h
-//  metoo White Label
+//  MBT3DGridViewController.h
+//  3DGridViewController
 //
 //  Created by Matteo Battaglio on 26/06/14.
-//  Copyright (c) 2014 metoo. All rights reserved.
+//  Copyright (c) 2014 Matteo Battaglio. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, MBT3DGridTransitionDirection) {
-    MBT3DGridTransitionDirectionLeft = 1 << 0,
-    MBT3DGridTransitionDirectionRight = -MBT3DGridTransitionDirectionLeft,
+    MBT3DGridTransitionDirectionRight = 1 << 0,
+    MBT3DGridTransitionDirectionLeft = -MBT3DGridTransitionDirectionRight,
     MBT3DGridTransitionDirectionTop = 1 << 1,
     MBT3DGridTransitionDirectionBottom = -MBT3DGridTransitionDirectionTop,
-    MBT3DGridTransitionDirectionNear = 1 << 2,
-    MBT3DGridTransitionDirectionFar = -MBT3DGridTransitionDirectionNear
+    MBT3DGridTransitionDirectionFar = 1 << 2,
+    MBT3DGridTransitionDirectionNear = -MBT3DGridTransitionDirectionFar
 };
 
 @protocol MBT3DGridViewControllerDataSource <NSObject>

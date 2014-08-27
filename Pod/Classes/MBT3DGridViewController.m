@@ -1,9 +1,9 @@
 //
-//  MEViewController.m
-//  metoo White Label
+//  MBT3DGridViewController.m
+//  3DGridViewController
 //
 //  Created by Matteo Battaglio on 26/06/14.
-//  Copyright (c) 2014 metoo. All rights reserved.
+//  Copyright (c) 2014 Matteo Battaglio. All rights reserved.
 //
 
 #import "MBT3DGridViewController.h"

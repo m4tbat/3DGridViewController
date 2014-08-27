@@ -1,9 +1,9 @@
 //
-//  MEZParallaxAnimationController.m
-//  metoo White Label
+//  MBTZAnimator.m
+//  3DGridViewController
 //
 //  Created by Matteo Battaglio on 08/08/14.
-//  Copyright (c) 2014 metoo. All rights reserved.
+//  Copyright (c) 2014 Matteo Battaglio. All rights reserved.
 //
 
 #import "MBTZAnimator.h"

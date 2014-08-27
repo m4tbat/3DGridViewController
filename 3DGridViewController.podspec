@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "3DGridViewController"
-  s.version          = "0.1.5"
+  s.version          = "0.1.6"
   s.summary          = "A custom, 3D grid-shaped, container ViewController."
   s.description      = <<-DESC
                        3DGridViewController is a custom container view controller that lets you navigate

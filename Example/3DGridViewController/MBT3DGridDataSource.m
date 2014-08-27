@@ -1,9 +1,9 @@
 //
 //  MBT3DGridDataSource.m
-//  metoo White Label
+//  3DGridViewController
 //
 //  Created by Matteo Battaglio on 28/07/14.
-//  Copyright (c) 2014 metoo. All rights reserved.
+//  Copyright (c) 2014 Matteo Battaglio. All rights reserved.
 //
 
 #import "MBT3DGridDataSource.h"
@@ -62,7 +62,6 @@ typedef struct {
 
 - (UIViewController *)initialViewController {
     return [self currentViewController];
-    //return [[[MENewsModule alloc] init] moduleRootViewController];//
 }
 
 - (UIViewController *)viewControllerForTransitionDirection:(MBT3DGridTransitionDirection)direction
