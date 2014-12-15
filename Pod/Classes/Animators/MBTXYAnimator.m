@@ -48,7 +48,7 @@
                          toView.frame = finalToFrame;
                      }
                      completion:^(BOOL finished) {
-                         if (!finished) {
+                         if ([transitionContext transitionWasCancelled]) {
                              fromView.frame = initialFromFrame;
                              toView.frame = initialToFrame;
                          }
