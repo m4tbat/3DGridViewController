@@ -55,6 +55,7 @@
     [self addChildViewController:self.currentContentViewController];
     [self.currentContentViewController beginAppearanceTransition:YES animated:NO];
     [self.view addSubview:self.currentContentViewController.view];
+    
     [self.currentContentViewController didMoveToParentViewController:self];
     [self.currentContentViewController endAppearanceTransition];
 }

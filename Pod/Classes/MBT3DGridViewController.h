@@ -49,11 +49,6 @@ typedef NS_ENUM(NSInteger, MBT3DGridTransitionDirection) {
 
 @property (weak, nonatomic) IBOutlet UIView *backgroundView;
 
-/**
- *  <#Description#>
- *
- *  @param direction <#direction description#>
- */
 - (BOOL)moveAlongDirection:(MBT3DGridTransitionDirection)direction interactively:(BOOL)interactively;
 
 @end
