@@ -44,14 +44,14 @@
                         options:0
                      animations:^{
                          fromView.transform = CGAffineTransformMakeScale(scaleFromX, scaleFromY);
-                         fromView.alpha = 0;
+                         fromView.alpha = 0.0;
                          toView.transform = CGAffineTransformIdentity;
-                         toView.alpha = 1;
+                         toView.alpha = 1.0;
                      }
                      completion:^(BOOL finished) {
                          if (!finished) {
                              fromView.transform = CGAffineTransformIdentity;
-                             fromView.alpha = 1;
+                             fromView.alpha = 1.0;
                          }
                          
                          [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
