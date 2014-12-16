@@ -31,6 +31,8 @@ typedef NS_ENUM(NSInteger, MBT3DGridTransitionDirection) {
 
 - (id <UIViewControllerAnimatedTransitioning>)animationControllerForTransitionDirection:(MBT3DGridTransitionDirection)direction;
 
+- (id <UIViewControllerAnimatedTransitioning>)backgoundAnimationControllerForTransitionDirection:(MBT3DGridTransitionDirection)direction;
+
 - (id <UIViewControllerInteractiveTransitioning>)interactionControllerForTransitionDirection:(MBT3DGridTransitionDirection)direction withAnimator:(id <UIViewControllerAnimatedTransitioning>)animator;
 
 @end
