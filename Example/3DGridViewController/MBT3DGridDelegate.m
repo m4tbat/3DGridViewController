@@ -60,6 +60,12 @@
     }
 }
 
+- (id <UIViewControllerAnimatedTransitioning>)backgoundAnimationControllerForTransitionDirection:(MBT3DGridTransitionDirection)direction {
+    MBTBackgroundParallaxAnimator *alphaAnimator = [[MBTBackgroundParallaxAnimator alloc] initWith3DGridViewController:self.gridController parallaxRatio:1.0/3.0];
+    
+    return (id<UIViewControllerAnimatedTransitioning>)alphaAnimator;
+}
+
 - (id <UIViewControllerInteractiveTransitioning>)interactionControllerForTransitionDirection:(MBT3DGridTransitionDirection)direction withAnimator:(id <UIViewControllerAnimatedTransitioning>)animator {
     self.interactionController = [[AWPercentDrivenInteractiveTransition alloc] initWithAnimator:animator];
     

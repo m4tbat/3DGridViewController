@@ -7,6 +7,7 @@
 //
 
 #import "MBT3DGridDataSource.h"
+#import <UIViewController+MBT3DGrid.h>
 
 typedef struct {
     CGFloat x, y, z;

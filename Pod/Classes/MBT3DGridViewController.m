@@ -9,6 +9,7 @@
 #import "MBT3DGridViewController.h"
 #import <AWPercentDrivenInteractiveTransition.h>
 #import "MBTAdditionalAnimator.h"
+#import "UIViewController+MBT3DGrid.h"
 
 @interface MBT3DGridViewController () <UIViewControllerContextTransitioning>
 
@@ -52,6 +53,8 @@
     [super viewDidLoad];
     
     self.currentContentViewController = [self.dataSource initialViewController];
+    self.currentContentViewController.gridViewController = self;
+
     [self addChildViewController:self.currentContentViewController];
     [self.currentContentViewController beginAppearanceTransition:YES animated:NO];
     [self.view addSubview:self.currentContentViewController.view];
@@ -76,6 +79,7 @@
 
 - (BOOL)moveAlongDirection:(MBT3DGridTransitionDirection)direction interactively:(BOOL)interactively {
     self.nextContentViewController = [self.dataSource viewControllerForTransitionDirection:direction fromViewController:self.currentContentViewController];
+    self.nextContentViewController.gridViewController = self;
     
     if (self.nextContentViewController) {
         self.transitionDirection = direction;

@@ -1,7 +1,7 @@
 PODS:
-  - 3DGridViewController (0.1.4):
+  - 3DGridViewController (0.1.6):
     - AWPercentDrivenInteractiveTransition (~> 0.1)
-  - AWPercentDrivenInteractiveTransition (0.1.0)
+  - AWPercentDrivenInteractiveTransition (0.1.1)
   - Expecta (0.3.1)
   - Specta (0.2.1)
 
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  3DGridViewController: 38734ea1d72d7223af6e44f6c7d8cc86047eb781
-  AWPercentDrivenInteractiveTransition: a2cea96b9b63d2b7a66f14ef925cdc2e4cfc3ee4
+  3DGridViewController: 40ee21faea5a2274a635d50a69907fb0f6fe229e
+  AWPercentDrivenInteractiveTransition: b6227fc5c055f06e23a5826fcf42c6f1eca3a810
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.35.0
