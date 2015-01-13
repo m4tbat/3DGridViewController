@@ -15,7 +15,7 @@
 
 @property (assign, nonatomic, readwrite) MBT3DGridTransitionDirection transitionDirection;
 
-@property (strong, nonatomic) UIViewController *currentContentViewController;
+@property (strong, nonatomic, readwrite) UIViewController *currentContentViewController;
 @property (strong, nonatomic) UIViewController *nextContentViewController;
 
 @property (assign, nonatomic) BOOL transitionCanceled;

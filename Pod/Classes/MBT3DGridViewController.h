@@ -41,6 +41,8 @@ typedef NS_ENUM(NSInteger, MBT3DGridTransitionDirection) {
 
 @interface MBT3DGridViewController : UIViewController
 
+@property (strong, nonatomic, readonly) UIViewController *currentContentViewController;
+
 @property (weak, nonatomic) id <MBT3DGridViewControllerDataSource> dataSource;
 
 @property (weak, nonatomic) id <MBT3DGridViewControllerDelegate> delegate;
